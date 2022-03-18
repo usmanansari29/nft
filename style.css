@@ -1,0 +1,283 @@
+/*navbar*/
+.nav{
+    background-color: black;
+    
+}
+#navbarColor02{
+    padding: 20px;
+       
+}
+
+
+#navbarColor02 .nav-link:hover{
+	background:linear-gradient(to right, #7f8c8d,#000000  100%);
+	color: white;
+}
+
+
+
+
+.logo-text{
+    font-size: 50px;
+}
+
+.btnn:hover{
+	background:linear-gradient(to right, #7f8c8d,#000000  100%);
+	color: white;
+}
+
+.btnn{
+    
+    border-radius: 50px ;
+    width: 150px;
+    height: 40px;
+   background:linear-gradient(to right, #000000,#04619f  100%);
+    padding: 5px;
+}
+
+/*hero image*/
+.hero{
+	margin: 300px 0px 20px 40px;
+}
+
+
+.hero-text{
+	font-size: 72px;
+	color: white;	
+}
+
+
+.hero-btn{
+	margin: 0px 20px 0px 40px;
+	padding: 20px;
+	margin-left: 10px;
+	
+}
+.hero-cover{
+	height: 700px;
+	background-image: url("../images/hero.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex ;
+	
+}
+
+
+
+/*content*/
+.content-box{
+	margin: 40px 0px;
+	
+}
+.content-box-heading{
+	color: white;
+	padding: 10px;
+}
+.content-box-para{
+	color: white;	
+	margin: 0px, 0px, 10px;
+	font-size: 18px;
+	padding: 10px;
+}
+
+
+
+
+
+
+/*subscribe*/
+.subscribe-area {
+background:linear-gradient(to right, #04619f,#000000  100%);
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+.pt-70 {
+    padding-top: 70px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.subscribe-text span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 5px;
+}
+.subscribe-text h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+.subscribe-wrapper {
+    overflow: hidden;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.subscribe-form {
+}
+.subscribe2-wrapper .subscribe-form input {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    height: 57px;
+    margin-right: 17px;
+    padding-left: 35px;
+    width: 70%;
+    cursor: pointer;
+}
+.subscribe2-wrapper .subscribe-form button:hover{
+	
+	background:linear-gradient(to right, #7f8c8d,#000000  100%);
+	color: white;
+}
+ 
+.subscribe2-wrapper .subscribe-form button {
+	background: #ffff;
+	background:linear-gradient(to right, #000000,#04619f  100%);
+    border: none;
+    border-radius: 10px;
+    color: #4b5d73;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 18px 46px;
+    transition: all 0.3s ease 0s;
+}
+.subscribe2-wrapper .subscribe-form button i {
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+/*our team*/
+.our_team {
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+    background:linear-gradient(to right, #000000,#04619f  100%);
+    min-height: 100vh;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+
+
+/* F A Q */
+body {
+    background-color: #eee;
+}
+
+.panel-body{
+	color: white;
+}
+
+.checkbox_collapse .panel.panel-default {
+    padding: 0px !important;
+    margin-bottom: 10px;
+    border-radius: 0px;
+}
+
+.checkbox_collapse .panel.panel-default span.circle {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    border-radius: 2px;
+    background-color: #fff;
+    display: inline-flex;
+    vertical-align: middle
+}
+
+.checkbox_collapse .panel.panel-default span.circle:after {
+    width: 25px;
+    content: "";
+    background: url(https://image.flaticon.com/icons/svg/64/64484.svg);
+    position: absolute;
+    left: 3px;
+    right: 0;
+    margin: 0 auto;
+    top: 4px;
+    z-index: 99999;
+    background-size: 10px;
+    height: 25px;
+    opacity: 0;
+    background-repeat: no-repeat
+}
+
+.checkbox_collapse .panel.panel-default a {
+    padding: 15px;
+	background:linear-gradient(to right, #04619f,#000000  100%);
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: capitalize;
+    display: block;
+    border-radius: 5px
+}
+
+.checkbox_collapse .panel.panel-default a[aria-expanded="false"]:after {
+    display: none !important
+}
+
+.checkbox_collapse .panel.panel-default a[aria-expanded="false"] span:after {
+    opacity: 0
+}
+
+.checkbox_collapse .panel.panel-default a[aria-expanded="true"]:after {
+    display: none !important
+}
+
+.checkbox_collapse .panel.panel-default a[aria-expanded="true"] span:after {
+    opacity: 1
+}
+.faq-heading{
+	color: white;
+	text-align: center;
+	font-size: 46px;
+	padding: 10px;
+}
+.faq-para{
+	color: #d4d4d4;
+	text-align: center;
+	font-size: 16px;
+	padding: 10px;
+}
+
